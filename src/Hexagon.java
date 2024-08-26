@@ -1,10 +1,7 @@
-import java.awt.*;
-import java.util.*;
-
-public class hexagon implements Shapes {
+public class Hexagon implements Shapes {
     double side;
 
-    public hexagon(double side) {
+    public Hexagon(double side) {
         this.side = side;
     }
 

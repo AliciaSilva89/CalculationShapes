@@ -1,10 +1,7 @@
-import java.awt.*;
-import java.util.*;
-
-public class square implements Shapes {
+public class Square implements Shapes {
     double squareSide;
 
-    public square(double squareSide){
+    public Square(double squareSide){
         this.squareSide = squareSide;
     }
 
